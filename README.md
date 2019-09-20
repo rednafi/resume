@@ -4,7 +4,7 @@ Professional cv / resume arsennal
 ## Hosting your cv / resume on Github
 * Make a public repo
 * Upload your cv/resume in pdf format 
-* Serve your cv as html (replace your link)
+* Make an `index.html` file (replace your link)
 
   ```html
       <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
