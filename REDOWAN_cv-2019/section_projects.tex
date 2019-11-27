@@ -1,0 +1,70 @@
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+%Section: Project
+
+
+\sectionTitle{Projects}{\faLaptop}
+
+\begin{projects}
+	\project
+	{Digit Generation and Classification for Bangladeshi License Plate Detection}{2019}
+	{\github{rednafi/prinumco}}
+	{\vspace{-3mm}
+	\begin{itemize}
+	\item Collected 107 unique Bangla fonts and programmatically generated 2500 images of Bengali digits
+	    \item Collected 1500 real images of license plates and cropped out individual digits 
+	    \item Applied 40 types of data augmentation on both the real and programmatically generated image sets to generate 200k synthetic images 
+	    \item Constructed a \textbf{MobileNetV2} based CNN architecture for digit recognition
+	    \item Validated the model on real digit dataset
+	\end{itemize}
+	}
+	{Python3, Keras, Plotly Express, Augmentor}\\
+				
+	\project
+	{Audio Tagging}{2019}
+	{\github{rednafi/urban-sound-classification}}
+	{\vspace{-3mm}   
+	\begin{itemize}
+	    \item Audio feature extraction in the form of MFCC,  Spectogram, Zero crossing points, Spectral rolloff etc
+	    \item Classification and inference via CNN based \textbf{Xception} model
+	    \item Deployment via \textbf{Flask} on \textbf{Heroku}
+	\end{itemize}
+	}
+	{Python3, Keras, Matplotlib, Plotly}\\
+	
+	\project
+	{Indoor Movement Prediction}{2019}
+	{\github{rednafi/indoor-movement-prediction}}
+	{\vspace{-3mm}
+	\begin{itemize}
+	    \item Predicting user movements from temporal streams of RSS measured between the nodes of a WSN
+	    \item Incorporation of gradient boosting based ensemble models for movement type recognition
+	    \item Demonstration via \textbf{Streamlit} on \textbf{Heroku}
+	\end{itemize}
+	}
+	{Python3, Scikit-learn, Plotly}\\
+	
+	
+	\project
+	{Automating Github Project Initialization}{2019}
+	{\github{rednafi/protomate}}
+	{\vspace{-3mm}
+	\begin{itemize}
+	    \item CLI tool for creating new Github project
+	    \item Added Github password hashing, prompt to save password, prompt to add .gitignore, project language detection etc
+	    \item Ported via \textbf{Click} api
+	\end{itemize}
+	}
+	{Python3, Bash, Poetry, Questionary}
+
+\end{projects}
+
