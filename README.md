@@ -3,10 +3,9 @@ Professional cv / resume arsennal
 
 ## Hosting your cv / resume on Github
 * Make a public repo
-* Upload your cv/resume in pdf format 
-* Make an `index.html` file (Replace your link. Make sure there is no blank space in the link)
-
-  ```html
+* Upload your cv/resume in pdf format
+* Make an `index.html` file and the copy the contents below
+```html
       <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
     <html lang="en" style="width:100%; height:100%;">
     <head>
@@ -18,4 +17,10 @@ Professional cv / resume arsennal
       </body>
     </html>
   ```
- * Publish your master branch via github pages from settings
+* Replace your link. Make sure there is no blank space in the link
+
+  **Example Link:**
+  ```https://github.com/rednafi/resume/raw/master/REDOWAN_cv.pdf```
+
+
+ * Publish your `master branch` via github pages from settings
