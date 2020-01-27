@@ -1,9 +1,5 @@
 
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,14 +17,14 @@
   <link crossorigin="anonymous" media="all" integrity="sha512-/YEVWs7BzxfKyUd6zVxjEQcXRWsLbcEjv045Rq8DSoipySmQblhVKxlXLva2GtNd5DhwCxHwW1RM0N9I7S2Vew==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-481a47a96965f6706fb41bae0d14b09a.css" />
   <link crossorigin="anonymous" media="all" integrity="sha512-xod5+iick6st6a0tvmfiqwCFLFTRzOkGLX0SAqY7SQFl0Q3sWxKUB2rm1Kw4Vz/57FMg7chtfVYeUB/Yr/xmFQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-d3c48f1b58ea95d9efb184fd4592b411.css" />
     <link crossorigin="anonymous" media="all" integrity="sha512-be5r5xuxODmYFmuTS+1cSN8d6F0RzdeVfs0ROLxLMm2LZZBhFIbm/d3qYpjkDPQzCCvtMzJdFLe4whQ7qttY3g==" rel="stylesheet" href="https://github.githubassets.com/assets/github-a642f13ab8f184aef0b02fdcda9ef474.css" />
-    
-    
-    
-    
+
+
+
+
 
 
   <meta name="viewport" content="width=device-width">
-  
+
   <title>gitignore/TeX.gitignore at master · github/gitignore · GitHub</title>
     <meta name="description" content="A collection of useful .gitignore templates. Contribute to github/gitignore development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
@@ -39,13 +35,13 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/9919?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="github/gitignore" /><meta property="og:url" content="https://github.com/github/gitignore" /><meta property="og:description" content="A collection of useful .gitignore templates. Contribute to github/gitignore development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  
-  
+
+
 
     <meta name="request-id" content="A220:8D3E:2C48DEB:2DD25E2:5DDE976C" data-pjax-transient>
 
 
-  
+
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
@@ -66,7 +62,7 @@
 
 
 
-  
+
 
       <meta name="hostname" content="github.com">
     <meta name="user-login" content="">
@@ -80,7 +76,7 @@
     <meta name="html-safe-nonce" content="120a402ae5a3dea49245ce573f049a6f10b1351d">
 
   <meta http-equiv="x-pjax-version" content="078257137816dda3c5a46ef838b2b698">
-  
+
 
       <link href="https://github.com/github/gitignore/commits/master.atom" rel="alternate" title="Recent Commits to gitignore:master" type="application/atom+xml">
 
@@ -110,7 +106,7 @@
   </head>
 
   <body class="logged-out env-production page-responsive page-blob">
-    
+
 
   <div class="position-relative js-header-wrapper ">
     <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
@@ -118,9 +114,9 @@
       <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
     </span>
 
-    
-    
-    
+
+
+
 
 
         <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
@@ -131,7 +127,7 @@
         </a>
 
           <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
-            
+
               <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
     <a class="Header-link" href="/github">github</a>
     /
@@ -293,9 +289,9 @@
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
             <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
+
 <ul class="d-none js-jump-to-suggestions-template-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -336,7 +332,7 @@
 </ul>
 
 <ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -368,7 +364,7 @@
   </a>
 </li>
 
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -441,14 +437,14 @@
   <div class="application-main " data-commit-hovercards-enabled>
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
     <main  >
-      
-
-
-  
 
 
 
-  
+
+
+
+
+
 
 
 
@@ -467,7 +463,7 @@
 
 
   <li>
-    
+
   <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;A220:8D3E:2C48DEB:2DD25E2:5DDE976C&quot;,&quot;originating_url&quot;:&quot;https://github.com/github/gitignore/blob/master/TeX.gitignore&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d7d5c77e338fb5ffa8b04fbf43e6983a23483cf696d42c317d6fa004898a074d" href="/login?return_to=%2Fgithub%2Fgitignore">
     <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
     Watch
@@ -507,12 +503,12 @@
   <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/github/hovercard" href="/github">github</a></span><!--
 --><span class="path-divider">/</span><!--
 --><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/github/gitignore">gitignore</a></strong>
-  
+
 
 </h1>
 
     </div>
-    
+
 <nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax container-lg p-responsive d-none d-lg-block"
      itemscope
      itemtype="http://schema.org/BreadcrumbList"
@@ -597,11 +593,11 @@
 <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
   <div class="repository-content ">
 
-    
-    
 
 
-  
+
+
+
 
 
     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/github/gitignore/blob/e2e54ce6be90a3ca9c1da57031dc70bf62ed7921/TeX.gitignore">Permalink</a>
@@ -624,7 +620,7 @@
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
       <span class="d-flex flex-justify-between width-full width-md-auto">
-        
+
 <details class="details-reset details-overlay select-menu branch-select-menu  hx_rsm" id="branch-select-menu">
   <summary class="btn btn-sm select-menu-button css-truncate"
            data-hotkey="w"
@@ -669,11 +665,11 @@
       </div>
     </div>
 
-    
 
 
 
-    
+
+
   <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
       <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
         <span class="pr-md-4 f6">
@@ -715,57 +711,57 @@ TeXnicCenter produces a status file named *.tps which holds information on curre
       </details>
         <span class="">
     <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/maieul/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=maieul">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/636640?s=40&amp;v=4" width="20" height="20" alt="@maieul" /> 
+      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/636640?s=40&amp;v=4" width="20" height="20" alt="@maieul" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/koppor/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=koppor">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/1366654?s=40&amp;v=4" width="20" height="20" alt="@koppor" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/1366654?s=40&amp;v=4" width="20" height="20" alt="@koppor" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/shiftkey/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=shiftkey">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/359239?s=40&amp;v=4" width="20" height="20" alt="@shiftkey" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/359239?s=40&amp;v=4" width="20" height="20" alt="@shiftkey" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/arcresu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=arcresu">
-      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/322256?s=40&amp;v=4" width="20" height="20" alt="@arcresu" /> 
+      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/322256?s=40&amp;v=4" width="20" height="20" alt="@arcresu" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/habi/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=habi">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/1651235?s=40&amp;v=4" width="20" height="20" alt="@habi" /> 
+      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/1651235?s=40&amp;v=4" width="20" height="20" alt="@habi" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/lszeremeta/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=lszeremeta">
-      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/5364674?s=40&amp;v=4" width="20" height="20" alt="@lszeremeta" /> 
+      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/5364674?s=40&amp;v=4" width="20" height="20" alt="@lszeremeta" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/tjgrilley/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=tjgrilley">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/1391931?s=40&amp;v=4" width="20" height="20" alt="@tjgrilley" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/1391931?s=40&amp;v=4" width="20" height="20" alt="@tjgrilley" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/Anton-Sakovich/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=Anton-Sakovich">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/20153930?s=40&amp;v=4" width="20" height="20" alt="@Anton-Sakovich" /> 
+      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/20153930?s=40&amp;v=4" width="20" height="20" alt="@Anton-Sakovich" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/seungwonpark/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=seungwonpark">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/13394294?s=40&amp;v=4" width="20" height="20" alt="@seungwonpark" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/13394294?s=40&amp;v=4" width="20" height="20" alt="@seungwonpark" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/vkusvody/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=vkusvody">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/10602505?s=40&amp;v=4" width="20" height="20" alt="@vkusvody" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/10602505?s=40&amp;v=4" width="20" height="20" alt="@vkusvody" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/dopefishh/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=dopefishh">
-      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/1789556?s=40&amp;v=4" width="20" height="20" alt="@dopefishh" /> 
+      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/1789556?s=40&amp;v=4" width="20" height="20" alt="@dopefishh" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/Konfekt/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=Konfekt">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/7195553?s=40&amp;v=4" width="20" height="20" alt="@Konfekt" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/7195553?s=40&amp;v=4" width="20" height="20" alt="@Konfekt" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/AndyHee/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=AndyHee">
-      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/28751375?s=40&amp;v=4" width="20" height="20" alt="@AndyHee" /> 
+      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/28751375?s=40&amp;v=4" width="20" height="20" alt="@AndyHee" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/153957/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=153957">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/1433682?s=40&amp;v=4" width="20" height="20" alt="@153957" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/1433682?s=40&amp;v=4" width="20" height="20" alt="@153957" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/MohHizzani/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=MohHizzani">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/30414163?s=40&amp;v=4" width="20" height="20" alt="@MohHizzani" /> 
+      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/30414163?s=40&amp;v=4" width="20" height="20" alt="@MohHizzani" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/wojciechwasko/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=wojciechwasko">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/1333294?s=40&amp;v=4" width="20" height="20" alt="@wojciechwasko" /> 
+      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/1333294?s=40&amp;v=4" width="20" height="20" alt="@wojciechwasko" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/whisperity/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=whisperity">
-      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/1969470?s=40&amp;v=4" width="20" height="20" alt="@whisperity" /> 
+      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/1969470?s=40&amp;v=4" width="20" height="20" alt="@whisperity" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/BlueNalgene/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=BlueNalgene">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/11249256?s=40&amp;v=4" width="20" height="20" alt="@BlueNalgene" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/11249256?s=40&amp;v=4" width="20" height="20" alt="@BlueNalgene" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/Aikhjarto/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=Aikhjarto">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/3519989?s=40&amp;v=4" width="20" height="20" alt="@Aikhjarto" /> 
+      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/3519989?s=40&amp;v=4" width="20" height="20" alt="@Aikhjarto" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/thomaslima/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=thomaslima">
-      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/1088659?s=40&amp;v=4" width="20" height="20" alt="@thomaslima" /> 
+      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/1088659?s=40&amp;v=4" width="20" height="20" alt="@thomaslima" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/thomwiggers/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=thomwiggers">
-      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/974662?s=40&amp;v=4" width="20" height="20" alt="@thomwiggers" /> 
+      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/974662?s=40&amp;v=4" width="20" height="20" alt="@thomwiggers" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/thiminhnhut/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=thiminhnhut">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/25403555?s=40&amp;v=4" width="20" height="20" alt="@thiminhnhut" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/25403555?s=40&amp;v=4" width="20" height="20" alt="@thiminhnhut" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/thilaire/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=thilaire">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/1109484?s=40&amp;v=4" width="20" height="20" alt="@thilaire" /> 
+      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/1109484?s=40&amp;v=4" width="20" height="20" alt="@thilaire" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/taroxd/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=taroxd">
-      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/6070540?s=40&amp;v=4" width="20" height="20" alt="@taroxd" /> 
+      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/6070540?s=40&amp;v=4" width="20" height="20" alt="@taroxd" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/rogierslag/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=rogierslag">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/2778689?s=40&amp;v=4" width="20" height="20" alt="@rogierslag" /> 
+      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/2778689?s=40&amp;v=4" width="20" height="20" alt="@rogierslag" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/ryanakca/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/github/gitignore/commits/master/TeX.gitignore?author=ryanakca">
-      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/99287?s=40&amp;v=4" width="20" height="20" alt="@ryanakca" /> 
+      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/99287?s=40&amp;v=4" width="20" height="20" alt="@ryanakca" />
 </a>
     <button type="button" class="btn-link lh-default" data-toggle-for="blob_contributors_box">and others</button>
 </span>
@@ -778,7 +774,7 @@ TeXnicCenter produces a status file named *.tps which holds information on curre
 
 
     <div class="Box mt-3 position-relative">
-      
+
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
@@ -813,10 +809,10 @@ TeXnicCenter produces a status file named *.tps which holds information on curre
 
 
 
-      
+
 
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-ignore-list ">
-      
+
 <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
@@ -2010,7 +2006,7 @@ TeXnicCenter produces a status file named *.tps which holds information on curre
 
     </div>
 
-  
+
 
   <details class="details-reset details-overlay details-overlay-dark">
     <summary data-hotkey="l" aria-label="Jump to line"></summary>
@@ -2028,11 +2024,11 @@ TeXnicCenter produces a status file named *.tps which holds information on curre
 
     </main>
   </div>
-  
+
 
   </div>
 
-        
+
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
@@ -2075,11 +2071,11 @@ TeXnicCenter produces a status file named *.tps which holds information on curre
 
     <script crossorigin="anonymous" integrity="sha512-+HrX8ahxgj74CUPPmM6Z3OU9WEiCyL7ZNdFDi1qwf32rgamIx9tGkQuWb4dFkMHthTaCuRbi3x2Zu8qtC88+6A==" type="application/javascript" src="https://github.githubassets.com/assets/compat-bootstrap-f87ad7f1.js"></script>
     <script crossorigin="anonymous" integrity="sha512-VAJ/GPmVcRxc/pNyqA5NZX5+FxTRmSlJqKn6SNKOyt1h4hBdexoENT0aQ0NqfvL7RdPxp+JlDDBMryuVakbk8Q==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-54027f18.js"></script>
-    
+
     <script crossorigin="anonymous" async="async" integrity="sha512-xw86y4F+CYIjI7REFrvjez7ATAjQ8byF0ir/f4QkEIEMAnKt9cNQ+hpNqdZKKH4PZnn4eVSa8sm3ApPnmv70NA==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-c70f3acb.js"></script>
-    
-    
-    
+
+
+
   <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
     >
     <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
@@ -2107,4 +2103,3 @@ TeXnicCenter produces a status file named *.tps which holds information on curre
 
   </body>
 </html>
-
