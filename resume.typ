@@ -21,9 +21,14 @@
 #set list(indent: 0.4em, spacing: 0.55em)
 
 #let gray = luma(110)
+#let link-blue = rgb("#165D9C")
 
-// Links: thin gray underline so they read as clickable, no color.
-#show link: it => underline(stroke: 0.4pt + luma(150), offset: 1.5pt, it)
+// Links: restrained blue with a matching underline for clear affordance.
+#show link: it => underline(
+  stroke: 0.5pt + link-blue,
+  offset: 1.5pt,
+  text(fill: link-blue, it),
+)
 
 // Section headings: small, letter-spaced, gray caps. No rules.
 #show heading.where(level: 1): it => {
@@ -65,7 +70,7 @@
 #text(size: 16pt, weight: "bold", tracking: 0.04em)[REDOWAN DELOWAR]
 
 #v(-0.3em)
-#text(size: 10.5pt, weight: "medium")[Storage & Distributed Systems]
+#text(size: 10.5pt, weight: "medium")[Senior Software Engineer: Backend & Distributed Data Systems]
 
 #v(-0.3em)
 #text(fill: gray, size: 9pt)[
@@ -77,52 +82,43 @@
 ]
 
 #v(0.15em)
-Backend engineer with 8+ years of experience, focused on storage,
-resilience, and observability. Operates #box[multi-region],
-#box[active-active] databases at petabyte scale. Writes about Go,
-databases, and distributed systems at
-#link("https://rednafi.com", "rednafi.com") #box[(20k+ monthly readers)].
+Senior Software Engineer with 8+ years of experience delivering backend systems
+and data infrastructure at startups and large technology companies. Specializes
+in distributed systems, databases, streaming, and observability, with a track
+record in system architecture, reliability, performance, and production
+operations. Writes about databases and distributed systems at
+#link("https://rednafi.com", "rednafi.com"), reaching 20k+ monthly readers.
 
 // ---------- experience ----------
 
-= Work Experience
+= Professional Experience
 
 #role(
-  org: "Wolt (DoorDash)",
+  org: "Wolt, a DoorDash company",
   title: "Senior Software Engineer",
   location: "Berlin, Germany",
   dates: "Oct 2023 - Present",
 )[
-  // NOTE: every figure in this block (100+, 2,000+, 400+, 30+ TB,
-  // minutes-to-seconds) is a realistic ESTIMATE added on request. Verify
-  // each against real fleet data before sending.
-  // TODO: verify "Own" matches your charter; if the control plane runs as
-  // a Kubernetes operator, say so.
-  - Own the #box[multi-tenant] control plane that provisions, scales, and
-    repairs 100+ #box[multi-region], #box[active-active] Cassandra clusters
-    (2,000+ nodes) for Wolt and DoorDash.
-  - Build and operate the Go data plane that fronts the Cassandra clusters,
+  // Add only externally shareable, verified scale and impact figures. Useful
+  // measures include fleet size, QPS, availability, cost, MTTR, toil,
+  // provisioning time, adoption, and the number of teams influenced.
+  - Own and operate the #box[multi-tenant] control plane for Wolt and DoorDash's
+    petabyte-scale, #box[multi-region] Cassandra fleet, automating cluster
+    provisioning, scaling, and repair.
+  - Design and operate the Go data plane in front of the Cassandra fleet,
     centralizing authorization, query observability, and traffic control.
-  // TODO: verify the 400+ service count and that "drove its adoption"
-  // matches how the rollout happened.
-  - Set the structured logging standard and drove its adoption across Wolt's
-    400+ backend services.
-  // TODO: verify 30+ TB/day. A retention or storage-cost angle would also
-  // hit the cost-efficiency requirement that recurs in the target JDs.
-  - Built the #box[high-performance] log ingestion and query platform that
-    streams 30+ TB of logs a day from every backend service through Vector
-    and Kafka into ClickHouse and serves queries through Grafana.
-  // TODO: verify "minutes to seconds" against the real p99 numbers.
+  - Built Wolt's centralized log ingestion and query platform, streaming
+    backend logs through Vector and Kafka into ClickHouse for exploration in
+    Grafana.
+  - Defined Wolt's structured logging standard and led its adoption across
+    the backend service fleet.
   - Diagnosed #box[head-of-line] blocking in the shared job queue and split
-    latency-sensitive work onto a dedicated Go worker tier, cutting p99
-    #box[job-start] delay from minutes to seconds.
-  - Plan capacity for the storage fleet, review data-layer designs for
-    teams across Wolt, and carry on-call for the platform.
-  // TODO: if Wolt/DoorDash doesn't literally call this role "bar raiser",
-  // change to "serve on the interview loop" - Amazon screeners read
-  // "bar raiser" as their proprietary certification.
-  - Mentor engineers and serve as bar raiser in Wolt's interview loops for
-    Go, backend, and #box[distributed-systems] roles.
+    latency-sensitive work onto a dedicated Go worker tier, substantially
+    reducing p99 #box[job-start] latency.
+  - Lead storage capacity planning and conduct data-layer design reviews for
+    teams across Wolt, advising on scalability and operational tradeoffs.
+  - Mentor engineers and conduct technical interviews for Go, backend, and
+    #box[distributed-systems] roles.
 ]
 
 #role(
@@ -131,13 +127,16 @@ databases, and distributed systems at
   location: "Remote (US)",
   dates: "Sep 2020 - Jul 2023",
 )[
-  - Designed a Kafka-backed orchestrator (FastAPI) that decoupled job
-    execution from the Django monolith, unblocking independent deploys.
-  // TODO: verify the retry/dead-letter wording matches what you built.
-  - Shipped webhook delivery on a stateless Go service with retry and
-    dead-letter handling (SQS, Cassandra, Lambda).
-  - Built Go edge agents that stream lab-instrument readings from device
-    fleets into Postgres for post-processing.
+  - Designed and delivered a Kafka-backed orchestration service that separated
+    job execution from the Django monolith, enabling independent deployments
+    (Python, FastAPI, Kafka).
+  - Built a stateful webhook delivery service with retry and dead-letter
+    handling (Go, SQS, PostgreSQL, AWS Lambda).
+  - Built Go edge agents that streamed lab-instrument readings from device
+    fleets into PostgreSQL for post-processing.
+  - Owned and operated the Django/PostgreSQL backend powering Dendi's
+    laboratory management system for 50+ customers, processing an average of
+    100k+ orders per day (Python, Django, PostgreSQL).
 ]
 
 #role(
@@ -146,23 +145,23 @@ databases, and distributed systems at
   location: "Dhaka, Bangladesh",
   dates: "Sep 2018 - Aug 2020",
 )[
-  - Engineered a CDC pipeline (Postgres to Kafka to Snowflake) that enabled
-    near-real-time lending analytics.
-  - Owned the credit-eligibility inference backend that automated
-    creditworthiness checks for microloans (Flask).
+  - Built a CDC pipeline (PostgreSQL, Kafka, Snowflake) for near-real-time
+    lending analytics.
+  - Built and operated the Flask inference service that automated
+    credit-eligibility decisions for microloans (Python, Flask).
 ]
 
 // ---------- skills ----------
 
-= Skills
+= Technical Skills
 
 #skillrow("Languages", (
-  "Go", "Rust", "Python", "TypeScript", "SQL",
+  "Go", "Python", "SQL", "Kotlin", "TypeScript",
 ))
 #v(0.25em)
-#skillrow("Datastores", (
-  "PostgreSQL", "Cassandra", "DynamoDB", "MongoDB",
-  "ClickHouse", "Snowflake", "Elasticsearch",
+#skillrow("Storage", (
+  "Cassandra", "PostgreSQL", "ClickHouse", "DynamoDB",
+  "MongoDB", "Elasticsearch", "Snowflake",
 ))
 #v(0.25em)
 #skillrow("Infrastructure", (
@@ -174,20 +173,19 @@ databases, and distributed systems at
 
 = Open Source & Community
 
-- Open-source contributor since 2017, with
+- Creator and maintainer of
   #link(
-    "https://github.com/rednafi?tab=repositories&q=&type=source&sort=stargazers",
-    "projects",
-  ) used by thousands of developers.
-- Participant in Go proposal discussions on the golang/go issue tracker
-  and in
+    "https://github.com/rednafi/fastapi-nano",
+    "fastapi-nano",
+  ) (1k+ GitHub stars, 100+ forks) and several Go and Python developer tools.
+- #link(
+    "https://www.youtube.com/watch?v=AtSutJ2rSr8",
+    "Speaker at GDG Berlin",
+  ) ("Go Interface Segregation Redux"); guest on the
   #link(
-    "https://www.reddit.com/r/golang/search/?q=author%3Asigmoia&restrict_sr=1",
-    "r/golang",
-  ) (as u/sigmoia).
-- Author of #link("https://rednafi.com", "rednafi.com"): 230+ posts since
-  2020 on databases, Go concurrency, and distributed systems.
-- Speaker at GDG Berlin and guest on the Cup o' Go podcast.
+    "https://cupogo.dev/episodes/whats-coming-in-go-1-25-plus-redowan-delowar-on-what-makes-go-different-from-other-languages",
+    "Cup o' Go podcast",
+  ) to discuss Go design and dependency injection.
 
 // ---------- education ----------
 
